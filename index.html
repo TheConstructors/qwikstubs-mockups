@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+      body{margin-top:60px;background-image: url('dark.png');}
+
+      .invert-text{color:white;}
+
+
+      form.login {
+  margin:5px 0 0 0;
+  paddidng:0px;
+}
+
+form.login input {
+  background: #F5F5F5;
+  margin:0 0 0 0;
+
+}
+
+@media (min-width:768px) {
+  .navbar-search .btn {
+    margin:-9px 0 -9px 0;
+  }
+}
+
+.form-register {
+  max-width: 300px;
+  padding: 19px 29px 29px;
+  margin: 0 auto 20px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.form-register .form-signin-heading, 
+.form-register .checkbox {
+        margin-bottom: 10px;
+}
+
+.form-register input[type="text"],
+.form-register input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar" ></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="nav" style="padding:2px;"> 
+          <img src='logo-tiny.png' id='logo'>
+          </div> 
+          
+          <ul class='nav nav-collapse collapse pull-right' style="margin-right:15px;">
+          <li class=""><form class="navbar-search login">
+            <input type="text" class="span2" placeholder="Email Address">
+            <input type="text" class="span2" placeholder="Password">
+            <input type="submit" value="Login" class="btn"/>
+        </form></li>
+        </ul>
+
+
+
+          
+        
+          <!--div class="container nav-collapse text-right">
+          </div><!--/.nav-collapse -->
+
+           <!--form class="navbar-search pull-right">
+            <input type="text" class="span2" placeholder="Login">
+            <input type="text" class="span2" placeholder="Password">
+            <input type="submit" value="Login" class="btn"/>
+        </form-->
+        
+        </div>
+
+
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class = "span7 invert-text">
+          <form class="form-search">
+          <input type="text" class="input-medium search-query span6" placeholder="Search Events">
+          <button type="submit" class="btn">go!</button>
+</form>
+          <h2>Featured Events</h2>
+          <br>
+          <div class="row">
+            <div class="span3">
+              <a href="#" class="thumbnail">
+              <img src = "3oh.jpg" data-src="" alt="">
+              </a>
+              </div>
+            <div class="span4"><h3>3oh3!</h3>
+              <strong>Macklemore & Ryan Lewis</strong><br> 
+              Apr 18, 2013<br>
+
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="span3">
+              <a href="#" class="thumbnail">
+              <img src = "shrek.jpg" data-src="" alt="">
+              </a>
+              </div>
+            <div class="span4"><h3>Shrek the Musical </h3> 
+              Apr 18, 2013<br>
+
+            </div>
+          </div>
+          <br>
+
+
+        </div>
+        <div class = "span5">
+          <form class="form-register">
+            <h2>Register</h2>
+              <input type="text" class="input-block-level" placeholder="Email Address">
+              <input type="password" class="input-block-level" placeholder="Password">
+              <input type="password" class="input-block-level" placeholder="Confirm Password">
+              <input type="submit" value="Register" class="btn btn-large btn-primary"/>
+          </form>
+
+
+
+
+
+        </div>
+      </div>
+     
+      <div class="row">
+        <div class = "span12">
+          <footer class="well">
+            
+            <p><center>&copy; QwikStubs 2013</center></p>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
