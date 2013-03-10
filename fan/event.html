@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+      body{margin-top:60px;background-image: url('dark.png');}
+
+      .invert-text{color:white;}
+
+      .box{
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+              -webkit-border-radius: 5px;
+                 -moz-border-radius: 5px;
+                      border-radius: 5px;
+              -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                 -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                      box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+
+      form.login {
+      margin:5px 0 0 0;
+      paddidng:0px;
+      }
+
+     form.login input {
+        background: #F5F5F5;
+        margin:0 0 0 0;
+
+      }
+
+      @media (min-width:768px) {
+        .navbar-search .btn {
+          margin:-9px 0 -9px 0;
+        }
+      }
+
+      .form-register {
+        max-width: 300px;
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+              -webkit-border-radius: 5px;
+                 -moz-border-radius: 5px;
+                      border-radius: 5px;
+              -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                 -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                      box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+      .form-register .form-signin-heading, 
+      .form-register .checkbox {
+              margin-bottom: 10px;
+      }
+
+      .form-register input[type="text"],
+      .form-register input[type="password"] {
+              font-size: 16px;
+              height: auto;
+              margin-bottom: 15px;
+              padding: 7px 9px;
+      }
+
+
+    </style>
+
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+
+        <div class="container">
+                   <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar" ></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="nav" style="padding:2px;"> 
+          <img src='logo-tiny.png' id='logo'>
+          </div> 
+          <ul class='nav nav-collapse collapse pull-right' style="margin-right:15px;">
+
+          <li class=""><form class="navbar-search">
+                  <input type="text" class="input-medium search-query span3" placeholder="Search Events">
+          <button type="submit" class="btn">go!</button>
+          <button type="submit" class="btn"><i class="icon-cog"></i></button>
+          <input type="submit" value="Logout" class="btn btn-inverse"/>
+        </form></li>
+        </ul>
+
+
+
+        
+        </div>
+
+
+      </div>
+    </div>
+    <div class="container">
+      <div class = "row">
+        <div class ="span12 invert-text">
+          <h1>Computer Science the Musical</h1>
+        </div>
+      </div>
+      <div class ="row" style="margin-bottom:20px;">
+        <!-- Photo Scroller -->
+        <div class="span12">
+            <img src = "scroller1.jpg" style = "height:100px;">
+            <img src = "scroller2.jpg" style = "height:100px;">
+            <img src = "scroller3.jpg" style = "height:100px;">
+            <img src = "scroller4.jpg" style = "height:100px;">
+            <img src = "scroller1.jpg" style = "height:100px;">
+            <img src = "scroller2.jpg" style = "height:100px;">
+        </div>
+      </div>
+      <div class = "row">
+        <!-- Event Details -->
+        <div class = "span6 invert-text">
+            <h3>Description</h3>
+            This is a fantastic performance starring Stratos, the best
+            TA ever! It goes through the trouble and tribulation of
+            being a computer science major at UCSB. It really has
+            everything that you would ever want from a performance and
+            it's a musical as well!!! What more could you want?? So
+            come on out and see this wonderful perform and support
+            Stratos in his FIRST STARRING ROLE!!!
+        </div>
+        <!-- Venue Details -->
+        <div class = "span6">
+          <div class = "box">
+            <p>
+              <h3>Performances</h3>
+              <table class = "table table-hover table-condensed">
+                <thead>
+                  <tr>
+                    <th>
+                      Date
+                    </th>
+                    <th>
+                      Location
+                    </th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>5/28/13</td>
+                    <td>Campbell Hall</td>
+                    <td> <input type="submit" value="Buy Tickets" class="btn btn-success btn-mini pull-right"></input></td>
+                  </tr>
+                  <tr>
+                    <td>6/4/13</td>
+                    <td>Campbell Hall</td>
+                    <td> <input type="submit" value="Buy Tickets" class="btn btn-success btn-mini pull-right"></input></td>
+                  </tr>
+                  <tr>
+                    <td>6/6/13</td>
+                    <td>Campbell Hall</td>
+                    <td> <input type="submit" value="Buy Tickets" class="btn btn-success btn-mini pull-right"></input></td>
+                  </tr>
+                  <tr>
+                    <td>6/7/13</td>
+                    <td>Campbell Hall</td>
+                    <td> <input type="submit" value="Buy Tickets" class="btn btn-success btn-mini pull-right"></input></td>
+                  </tr>
+                  <tr>
+                    <td>6/15/13</td>
+                    <td>Campbell Hall</td>
+                    <td> <input type="submit" value="Buy Tickets" class="btn btn-success btn-mini pull-right"></input></td>
+                  </tr>
+                </tbody>
+              </table>
+            </p>
+          </div>
+        </div>
+      </div>
+     
+      <div class="row">
+        <div class = "span12">
+          <footer class="well">
+            <p><center>&copy; QwikStubs 2013</center></p>
+          </footer>
+        </div>
+      </div>
+    </div>    
+  </body>
+</html>
